@@ -1,0 +1,17 @@
+{
+
+  "manifest_version": 2,
+  "name": "gecotimer",
+  "version": "1.0",
+
+  "description": "clicca sul sito di geco e ti permette di non far scadere il timer ",
+  
+
+  "content_scripts": [
+    {
+      "matches": [ "<all_urls>" ],
+      "js": [ "gecotimer.js" ]
+    }
+  ]
+
+}
